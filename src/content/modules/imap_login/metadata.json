@@ -1,0 +1,14 @@
+{
+	"version": "0.9 ",
+	"source": "extend",
+	"embed": false,
+	"shy": false,
+	"main_class": "ImapLoginController",
+	"controllers": {
+		"ImapLoginController": "controllers/ImapLoginController.php"
+	},
+	"objects": {
+		"ImapAuthenticator": "objects/ImapAuthenticator.php",
+		"ImapLoginTimeOut": "objects/Constants.php"
+	}
+}
