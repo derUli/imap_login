@@ -64,7 +64,7 @@ class ImapLoginController extends Controller {
 				$sessionData = $user;
 			} else if (isset ( $cfg ["create_user"] ) and $cfg ["create_user"]) {
 				$this->debug ( "User $username doesn't exists. So create it." );
-				adduser ( $username, $lastname, $firstname, $email, $password );
+				adduser ( $username, $lastname, $firstname, $email, $password, false);
 				$user = getUserByName ( $username );
 				$sessionData = $user;
 			}
