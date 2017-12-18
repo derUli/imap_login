@@ -9,6 +9,6 @@
 	},
 	"objects": {
 		"ImapAuthenticator": "objects/ImapAuthenticator.php",
-		"ImapLoginTimeOut": "objects/Constants.php"
+		"ImapLoginConstants": "objects/Constants.php"
 	}
 }
