@@ -29,7 +29,7 @@ Enables users to use their login from a mail server to login into UliCMS.
 
 imap_login offers some tweakable configuration parameters.
 
-**imap_mailbox** Adress of an IMAP Mailbox. For syntax see 
+**imap_mailbox** Address of an IMAP Mailbox. For syntax see 
 [imap_open()](http://php.net/manual/de/function.imap-open.php)
 
 **log_enabled** Write log files. The log files will be saved in ULICMS_ROOT/content/logs/imap_login.
