@@ -1,12 +1,10 @@
 {
 	"id": "imap_login",
-	"version": "0.9",
+	"version": "1.0",
 	"description": "IMAP Authentication for UliCMS",
 	"categories": [
 		"security"
 	],
-	"compatible_from": "2018.1",
-	"dependencies": [
-		"klogger"
-	]
+	"compatible_from": "2018.2",
+	"dependencies": []
 }
