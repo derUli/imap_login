@@ -91,7 +91,7 @@ class ImapLoginController extends Controller {
 		}
 	}
 	private function getConfig() {
-		$cfg = new config ();
+		$cfg = new CMSConfig ();
 		if (! isset ( $cfg->imap_login )) {
 			return null;
 		}
