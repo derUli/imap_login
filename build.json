@@ -5,7 +5,7 @@
 	"categories": [
 		"security"
 	],
-	"compatible_from": "2018.3.7",
+	"compatible_from": "2019.2",
 	"dependencies": [],
 	"required_php_extensions" :
 	[
