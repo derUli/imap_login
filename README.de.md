@@ -12,7 +12,7 @@ Ermöglicht Usern sich über einen IMAP (E-Mail) Server an UliCMS anzumelden.
 1. Fügen Sie vor der Installation des Moduls folgendes Snippet in die Datei **cms-config.php** ein. Passen Sie die Konfiguration wie gewünscht an
 
 ```php
-	var $imap_login = [ 
+	public $imap_login = [ 
 			"imap_mailbox" => "{imap.domain.de:993/imap/ssl}INBOX",
 			"log_enabled" => false,
 			"skip_on_error" => true,

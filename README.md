@@ -12,7 +12,7 @@ Enables users to use their login from a mail server to login into UliCMS.
 1. Add this snippet to your cms-config.php before installation of packages. Adjust it to your individual requirements.
 
 ```php
-	var $imap_login = [ 
+	public $imap_login = [ 
 			"imap_mailbox" => "{imap.domain.de:993/imap/ssl}INBOX",
 			"log_enabled" => false,
 			"skip_on_error" => true,
