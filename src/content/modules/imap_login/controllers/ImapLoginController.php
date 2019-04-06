@@ -77,7 +77,7 @@ class ImapLoginController extends Controller {
                 $user->setFirstname($firstname);
                 $user->setEmail($email);
                 $user->setPassword($password);
-                $user->setPrimaryGroupId(Settings::get("default_acl_group") ? Settings::get("default_acl_group") : null );
+                $user->setPrimaryGroupId(Settings::get("default_acl_group") ? intval(Settings::get("default_acl_group")) : null );
                 $user->save();
 
                 $sessionData = getUserByName($username);
